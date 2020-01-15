@@ -1,5 +1,8 @@
 package com.nelthor.ws;
 
+import javax.jws.WebService;
+
+@WebService(endpointInterface="com.nelthor.ws.Calculadora")
 public class CalculadoraImpl implements Calculadora{
 
 	@Override
